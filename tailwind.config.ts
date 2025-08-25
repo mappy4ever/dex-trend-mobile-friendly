@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				pokemon: {
+					electric: 'hsl(var(--pokemon-electric))',
+					fire: 'hsl(var(--pokemon-fire))',
+					water: 'hsl(var(--pokemon-water))',
+					grass: 'hsl(var(--pokemon-grass))',
+					psychic: 'hsl(var(--pokemon-psychic))',
+					ice: 'hsl(var(--pokemon-ice))',
+					dragon: 'hsl(var(--pokemon-dragon))',
+					dark: 'hsl(var(--pokemon-dark))',
+					fairy: 'hsl(var(--pokemon-fairy))',
+					normal: 'hsl(var(--pokemon-normal))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +79,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-pokemon': 'var(--gradient-pokemon)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'primary': 'var(--shadow-primary)',
+				'card': 'var(--shadow-card)',
+				'glow': 'var(--shadow-glow)'
 			},
 			keyframes: {
 				'accordion-down': {
